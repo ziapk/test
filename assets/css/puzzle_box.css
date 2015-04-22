@@ -1,0 +1,175 @@
+img{
+	max-width: 100%;
+	height: auto;
+}
+.thumb{
+	border: 1px solid #b3b2b2;
+}
+
+
+.puzzle-front,
+.puzzle-bottom,
+.puzzle-right,
+.puzzle-left,
+.puzzle-top{
+	margin: 0 auto;
+}
+/* default backgroud setting of box */
+.puzzle-front{
+	background: url(../images/puzzle-box-front-bg.png) no-repeat right top #f2f2f2;
+}
+.puzzle-top{
+	background: url(../images/puzzle-box-top-bg.png) no-repeat left top #f2f2f2;
+}
+.puzzle-right{
+	background: url(../images/puzzle-box-right-bg.png) no-repeat right top #f2f2f2;
+}
+/* default backgroud setting of box */
+
+/* puzzle-front */
+.puzzle-front{
+	position: relative;
+	padding: 31px;
+	padding-right: 328px;
+	width: 1142px;
+	height: 718px;
+}
+.box-logo{
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.price{
+	color: #f47721;
+	font-size: 84px;
+	font-family: "Open Sans";
+}
+.price small{
+	font-weight: 300;
+	font-size: 42px;
+}
+.box-type{
+	font-family: "Open Sans";
+	font-size: 30px;	
+	font-weight: 300;
+	color: rgba(51,51,51,0.8);
+}
+.detail-section{
+	position: absolute;
+	padding: 30px;
+	right: 0;
+	bottom: 0;
+}
+
+/* puzzle-front end*/
+
+/* puzzle-right and puzzle-left  */
+.puzzle-right,
+.puzzle-left{
+	padding: 15px 33px;
+	background-color: #f2f2f2;
+	height: 131px;
+	width: 718px;
+}
+.puzzle-right .details-section,
+.puzzle-left .details-section{
+	float: left;
+	width: 318px;
+	padding-top: 10px;
+}
+.puzzle-right .img-section,
+.puzzle-left .img-section{
+	float: right;
+	width: 142px;
+}
+.puzzle-right .box-type,
+.puzzle-left .box-type{
+	float: left;
+	border-right: 2px solid #e8e8e8;
+	font-size: 19px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-right: 30px;
+	line-height: 1.2;
+}
+.puzzle-right .box-type span,
+.puzzle-left .box-type span{
+	text-transform: none;
+}
+.puzzle-right .box-type small,
+.puzzle-left .box-type small{
+	font-size: 14px;
+}
+.puzzle-right .box-type strong,
+.puzzle-left .box-type strong{
+	font-size: 40px;
+	font-weight: 300;
+	display: block;
+	line-height: 1;
+}
+.puzzle-right .price,
+.puzzle-left .price{
+	float: right;
+	font-size: 33px;
+}
+.puzzle-right .price small,
+.puzzle-left .price small{
+	font-size: 22px;
+}
+.price .size{
+	color: #999;
+	display: block;
+	font-size: 16px;
+}
+
+/* puzzle-right and puzzle-left end  */
+
+/* puzzle-top and puzzle-bottom  */
+.puzzle-top,
+.puzzle-bottom{
+	position: relative;
+	padding: 20px;
+	background-color: #f2f2f2;
+	height: 131px;
+	width: 1142px;
+}
+.puzzle-top{
+	padding-left: 272px;
+}
+
+.puzzle-top .price small,
+.puzzle-bottom .price small{
+	font-size: 22px;
+}
+
+.puzzle-top .left-icons,
+.puzzle-bottom .left-icons{
+	float: left;
+	margin-right: 20px;
+}
+.puzzle-top .price,
+.puzzle-bottom .price{
+	font-size: 33px;
+}
+
+.puzzle-top .price small{
+	font-size: 22px;
+}
+
+.ref-link{
+	color: rgba(51,51,51,0.5);
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+}
+.puzzle-top .ref-link,
+.puzzle-bottom .ref-link{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 15px 20px;
+
+}
+/* puzzle-top and puzzle-bottom end  */
+
+
+
